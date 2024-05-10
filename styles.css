@@ -1,0 +1,111 @@
+#rosegold
+{
+  color: #b76e79;
+}
+
+#lavender
+{
+  color: #bfbff5;
+}
+
+#silver
+{
+  color: #c0c0c0;
+}
+
+#darkpurple
+{
+  color: #4d0b58;
+}
+
+#white
+{
+  color: #ffffff;
+}
+
+#black
+{
+  color: #000;
+}
+
+#coral
+{
+  color: coral;
+}
+
+body{
+
+  /* background-image: url('sparkle3.jpg'); */
+  background-color: black;
+  color: #bfbff5;
+
+}
+h1{
+  margin-top: 140px;
+}
+
+.flex-container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.productContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  /* align-items: center; */
+  /* justify-content: space-between; */
+  width:150px;
+  height: 50px;
+  border-width: 3px;
+  border-color:#000;
+  border-style: solid;
+  margin:10px;
+
+}
+
+.text{
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  color: #c0c0c0
+
+}
+
+img{
+  border-color: #000;
+  border-width: 4px;
+}
+
+#hiddenLink{
+  a:link{
+    color:#bfbff5;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited{
+    color:#bfbff5;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover{
+    color:#bfbff5;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:active{
+    color:#bfbff5;
+    background-color: transparent;
+    text-decoration: none;
+  }
+}
