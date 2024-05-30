@@ -85,7 +85,7 @@ h1 {
 
   .section-text-container {
     /* flex: 0 0 calc(100% - 350px); */
-    max-width: calc(80% - 300px);
+    /* max-width: calc(80% - 300px); */
     min-width: 300px;
     flex-wrap: wrap;
     color: #9a77a4;
