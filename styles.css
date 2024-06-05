@@ -43,9 +43,11 @@
   }
   #logo{
     margin-left: auto;
-    justify-self: center;
+    align-items: center;
+
   }
   #title-name{
+    align-items: center;
     font-size: 60px;
     word-wrap: wrap;
   }
