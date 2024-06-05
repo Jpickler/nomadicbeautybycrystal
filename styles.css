@@ -39,21 +39,19 @@
 @media (max-width: 600px) {
   #header{
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     margin-bottom: 20px;
   }
   #logo{
-    margin-left: auto;
-    align-items: center;
+    margin-left: 0;
+    margin-bottom: 10px;
 
   }
   #title-name{
-    align-items: center;
-    font-size: 60px;
-    word-wrap: wrap;
+    font-size: 80px;
   }
   #navigation{
-    margin-right: auto;
+    margin-right: 0;
   }
 }
 
