@@ -39,6 +39,7 @@
 @media (max-width: 600px) {
   #header{
     flex-direction: column;
+    justify-content: center;
     margin-bottom: 20px;
   }
   #logo{
@@ -50,6 +51,9 @@
     align-items: center;
     font-size: 60px;
     word-wrap: wrap;
+  }
+  #navigation{
+    margin-right: auto;
   }
 }
 
