@@ -31,10 +31,26 @@
 #navigation {
   list-style: none;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 30px;
+  font-size: 25px;
   color: var(--color-darkpurple);
   margin-right: 20px;
 }
+
+@media (max-width: 600px) {
+  #header{
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  #logo{
+    margin-left: auto;
+    justify-self: center;
+  }
+  #title-name{
+    font-size: 60px;
+    word-wrap: wrap;
+  }
+}
+
 
 body {
   background-color: var(--color-lavender);
