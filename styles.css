@@ -201,8 +201,8 @@ img {
 
 /* Tooltip container */
 .tooltip {
-  position: relative;
-  display: inline-block;
+  position:relative;
+  display:inline-block;
   border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
 }
 
@@ -210,7 +210,7 @@ img {
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 80%;
-  /* max-width: 300px; */
+  max-width: 400px;
   background-color: var(--color-darkpurple);
   color: var(--color-pink);
   text-align: center;
@@ -220,6 +220,7 @@ img {
   z-index: 1;
   left: 50%;
   margin-left: -40%;
+  font-size: 25px;
   
 }
 
