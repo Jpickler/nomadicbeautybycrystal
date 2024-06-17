@@ -196,7 +196,7 @@ img {
 #social-link {
   height: 50px;
   margin: 20px;
-} */
+} 
 
 
 /* Tooltip container */
@@ -229,22 +229,3 @@ img {
   visibility: visible;
 }
 
-
-/* #hiddenLink a:link {
-    color: #bfbff5;
-    background-color: transparent;
-    text-decoration: none;
-  }
-  #hiddenLink a:visited {
-    color: #bfbff5;
-    background-color: transparent;
-    text-decoration: none;
-  }
-  #hiddenLink a:hover {
-    color: var(--color-darkpurple);
-  }
-  #hiddenLink a:active {
-    color: #bfbff5;
-    background-color: transparent;
-    text-decoration: none;
-  } */
